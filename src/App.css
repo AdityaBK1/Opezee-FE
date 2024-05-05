@@ -1,0 +1,79 @@
+.App{
+  background: rgb(55,57,88);
+background: linear-gradient(90deg, rgba(55,57,88,1) 0%, rgba(28,81,159,1) 100%);
+  object-fit: fit;
+  width:100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.leftContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  width: 25%;
+  /* border: 10px solid red !important; */
+}                                               
+
+
+.rightContainer{
+  display: flex;
+  justify-content:flex-start;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 75%;
+  /* border: 10px solid red !important; */
+  gap: 10px;
+}
+
+/* .leftContainer > .imageLogo{
+  min-height: 75px; box-shadow: none; margin-top: 0px;object-fit: cover;
+  height: auto;
+} */
+
+.card{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:white;
+  margin-top: 50px;
+}
+
+ .application{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.setting{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.appdetails{
+  /* display: flex; */
+  padding: 20px;
+  /* justify-content: space-evenly; */
+  gap: 100px;
+  width: 75%;
+  /* border: 2px solid red; */
+  color:white
+}
+
+.appdetailsLayout{
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  gap: 100px;
+  width: 75%;
+  height: 150px;
+  /* border: 2px solid; */
+}
